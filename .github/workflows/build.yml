@@ -29,11 +29,8 @@ jobs:
       matrix:
         arch:
           - aarch64_cortex-a53
-          - x86_64
-          
         sdk:
           - 24.10.4
-
     steps:
       - uses: actions/checkout@v4
         with:
